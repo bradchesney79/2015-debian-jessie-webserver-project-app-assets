@@ -1,0 +1,24 @@
+{
+
+  "name": "bradchesney79/2015-debian-jessie-webserver-project-app-assets",
+  "minimum-stability": "dev",
+  "type": "library",
+  "description": "The server is built, now let's get it spinning.",
+  "authors": [
+	  {
+		  "name": "Brad Chesney",
+		  "email": "bradchesney79@gmail.com"
+	  }
+  ],
+  "require": {
+	  "php": ">=5.4.0"
+  },
+  "require-dev": {
+	  "phpdocumentor/phpdocumentor": "2.*",
+	  "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+      "psr-4": { "bradchesney79\\": ["app/", "config/", "tests/"] }
+  },
+  "license": "Unlicense"
+}
